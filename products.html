@@ -49,8 +49,8 @@
         </div>
 
         <div class="navbar-nav w-100">
-          <a href="index.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-          <a href="products.html" class="nav-link nav-item"><i class="fa fa-laptop me-2"></i>Products</a>
+          <a href="index.html" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+          <a href="products.html" class="nav-link nav-item active"><i class="fa fa-laptop me-2"></i>Products</a>
           <a href="stocking.html" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Stocking</a>
           <a href="sales.html" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Sales</a>
           <a href="customers.html" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Customers</a>
@@ -142,7 +142,7 @@
           <div class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
               <img class="rounded-circle me-lg-2" src="img/user.jpg" alt="" style="width: 40px; height: 40px;">
-              <span class="d-none d-lg-inline-flex">John Doe</span>
+              <span class="d-none d-lg-inline-flex">John Ayobami</span>
             </a>
             <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
               <a href="#" class="dropdown-item">My Profile</a>
@@ -161,170 +161,391 @@
           <div class="col-12">
             <div class="bg-secondary rounded h-100 p-4">
               <h5 class="mb-4">Product Record</h5>
-              <h6 class="mb-4">Monday</h6>
+              <h6 class="mb-4">Peak Evaporated Milk</h6>
+              <!-- Peak Evaporated Milk
+              Peak Evm Reg Can 24x150g
+              Peak Filled Evm Can 24x150g
+              Peak Gold Evm 9,5 Box 48x160g
+              Peak Evap 9 Box 48x410g NG
+              Peak Filled Evm Green Sac 16x6x30g
+
+              Peak Filled Reg 48x69g
+              Three Crowns Evm Reg Can 24x150g
+              Three Crowns Evm Reg Sac 96x30g
+              Three Crowns Evm Reg 48x69g
+              Coast Evm Can 24x150g
+              Olympic Evm Can 24x150g
+              Nunu Evm Can 24x150g
+              Peak Powder Milk
+              Peak Pwdr Pouch 12x350g
+              Peak Pwdr Can 12x400g
+              POW PEAK 12x900G T
+              Peak Pwdr Sac 210x14g
+              Peak Pwdr Can 6x2500g
+              Peak Full Cream Pwdr Pouch 6x800g
+              Peak Pwdr Choco Sac 210x18g
+              PEAK CHOCO 12X380g Pouch
+              Peak Filled Pwdr Sac 210x12g
+              Peak Filled Pwdr Sac 230x12g Pro
+              Olympic Creamer Pwdr Sac 210x12g
+              Peak 3in1 Tea Pwdr Sac 140x20g
+              Peak Milky Pap 60X90g
+              Peak Milky Pap 12x400g
+              Three Crowns Powder
+               Three Crowns Pwdr Pouch 12x320g
+              Three Crowns Pwdr Sac 210x12g
+              Three Crowns Pwdr Sac 230x12g Pro
+              POW THREE CROWNS 12X380G T
+              POW THREE CROWNS 6X770G P
+              Peak Infant Food
+              Pea Peak Baby Box 12x400g NG
+              Pea Peak Baby Preterm Box 12x400g
+              Peak Baby Milk Cereal Rice Based  12X250g P
+              Peak Baby Milk Cereal Wheat Based   12X250g P
+              Peak 123 GUM Pouch 6x750g
+              Peak 123 GUM Pwdr Pouch 12x360g
+              Peak 123 GUM Pwdr Can 12x400g
+              Peak GUM123 Pwdr Sac 140x16g
+              Peak 456 GUM Pwdr Sac 140x16g
+              Peak 456 GUM Pwdr Pouch 12x360g
+              Frs Friso Gold Rice Box 12x300g NG V1
+              Frs Friso Gold Wheat Box 12x300g NG V3
+              My Boy Eldorin Box 12x400g
+              My Boy 123 Gum Powd Pouch 12x320 g 
+              Peak Yoghurt Drink
+              Pea Ssm 1,5% Box 12x1L v1
+              Pea Fcm 3,5% Box 12x1L v1
+              Pea Dky Strawberry Box 12x1L Pac
+              Pea Dky Plain Sweet Box 12x1L Pac
+              Peak Yoghurt Dr Plain Sweetened 24x90ml
+              Peak Yoghurt Dr Strawberry 24x90ml
+              Pea Dky Plain Sweet Box 12x318ml Pac
+              Pea Dky Strawberry Box 12x318ml Pac
+              Nunu Amb DKY Plain sweet 48x100ml
+              Nunu Amb DKY Plain sweet 48x150ml
+               -->
               <div class="table-responsive">
                 <table class="table text-start align-middle table-bordered table-hover mb-0">
                   <thead>
                     <tr class="text-white">
                       <th scope="col"><input class="form-check-input" type="checkbox"></th>
-                      <th scope="col">Date</th>
                       <th scope="col">Product name</th>
                       <th scope="col">Current Price</th>
                       <th scope="col">Wholesale price</th>
                       <th scope="col">Quantity</th>
                       <th scope="col">View</th>
+                      <th scope="col">Action</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td><input class="form-check-input" type="checkbox"></td>
-                      <td>01 Jan 2045</td>
-                      <td>Spaghetti</td>
-                      <td>Emmanuel Ayuk</td>
-                      <td>$123</td>
-                      <td>20</td>
-                      <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                      <td>Peak Evm Reg Can</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>24x150g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
                     </tr>
                     <tr>
                       <td><input class="form-check-input" type="checkbox"></td>
-                      <td>01 Jan 2045</td>
-                      <td>Spaghetti</td>
-                      <td>John Doe</td>
-                      <td>$123</td>
-                      <td>20</td>
-                      <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                      <td>Peak Filled Evm Can</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>24x150g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
                     </tr>
                     <tr>
                       <td><input class="form-check-input" type="checkbox"></td>
-                      <td>01 Jan 2045</td>
-                      <td>Spaghetti</td>
-                      <td>Samuel Eyo</td>
-                      <td>$123</td>
-                      <td>20</td>
-                      <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                      <td>Peak Gold Evm 9,5 Box</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>48x160g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
                     </tr>
                     <tr>
                       <td><input class="form-check-input" type="checkbox"></td>
-                      <td>01 Jan 2045</td>
-                      <td>Spaghetti</td>
-                      <td>Emmanuel Ayul</td>
-                      <td>$123</td>
-                      <td>30</td>
-                      <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                      <td>Peak Evap 9 Box</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>48x410g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
                     </tr>
                     <tr>
                       <td><input class="form-check-input" type="checkbox"></td>
-                      <td>01 Jan 2045</td>
-                      <td>Spaghetti</td>
-                      <td>John Doe</td>
-                      <td>$123</td>
-                      <td>30</td>
-                      <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                      <td>Peak Filled Evm Green Sac</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>16x6x30g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Peak Filled Reg</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>48x69g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Three Crowns Evm Reg Can</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>24x150g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Three Crowns Evm Reg Sac</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>96x30g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="bg-secondary rounded h-100 p-4">
+              <h6 class="mb-4">Peak Milk / Three crowns</h6>
+              <div class="table-responsive">
+                <table class="table text-start align-middle table-bordered table-hover mb-0">
+                  <thead>
+                    <tr class="text-white">
+                      <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                      <th scope="col">Product name</th>
+                      <th scope="col">Current Price</th>
+                      <th scope="col">Wholesale price</th>
+                      <th scope="col">Quantity</th>
+                      <th scope="col">View</th>
+                      <th scope="col">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Peak Evap 9 Box</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>48x410g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Three Crowns Evm Reg</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>48x69g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Peak Evm Reg Can</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>24x150g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Peak Filled Evm Can</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>24x150g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Peak Gold Evm 9,5 Box</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>48x160g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Peak Evap 9 Box</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>48x410g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Peak Filled Evm Green Sac</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>16x6x30g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Peak Filled Reg</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>48x69g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Three Crowns Evm Reg Can</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>24x150g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Three Crowns Evm Reg Sac</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>96x30g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Peak Evap 9 Box</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>48x410g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>Three Crowns Evm Reg</td>
+                      <td>₦40,000</td>
+                      <td>₦300,000</td>
+                      <td>48x69g</td>
+                      <td><a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                          data-bs-target="#myModal">Detail</a></td>
+                      <td><a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal"
+                          data-bs-target="#editModal">Edit</a></td>
                     </tr>
                   </tbody>
                 </table>
               </div>
             </div>
           </div>
-        
-          <div class="col-12">
-            <div class="bg-secondary rounded h-100 p-4">
-                <h5 class="mb-4">Product Record</h5>
-                <h6 class="mb-4">Tuesday</h6>
-                <div class="table-responsive">
-                    <table class="table text-start align-middle table-bordered table-hover mb-0">
-                        <thead>
-                          <tr class="text-white">
-                            <th scope="col"><input class="form-check-input" type="checkbox"></th>
-                            <th scope="col">Date</th>
-                            <th scope="col">Product name</th>
-                            <th scope="col">Current Price</th>
-                            <th scope="col">Wholesale price</th>
-                            <th scope="col">Quantity</th>
-                            <th scope="col">View</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td><input class="form-check-input" type="checkbox"></td>
-                            <td>01 Jan 2045</td>
-                            <td>Spaghetti</td>
-                            <td>Emmanuel Ayuk</td>
-                            <td>$123</td>
-                            <td>20</td>
-                            <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
-                          </tr>
-                          <tr>
-                            <td><input class="form-check-input" type="checkbox"></td>
-                            <td>01 Jan 2045</td>
-                            <td>Spaghetti</td>
-                            <td>John Doe</td>
-                            <td>$123</td>
-                            <td>20</td>
-                            <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
-                          </tr>
-                          <tr>
-                            <td><input class="form-check-input" type="checkbox"></td>
-                            <td>01 Jan 2045</td>
-                            <td>Spaghetti</td>
-                            <td>Samuel Eyo</td>
-                            <td>$123</td>
-                            <td>20</td>
-                            <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
-                          </tr>
-                          <tr>
-                            <td><input class="form-check-input" type="checkbox"></td>
-                            <td>01 Jan 2045</td>
-                            <td>Spaghetti</td>
-                            <td>Emmanuel Ayul</td>
-                            <td>$123</td>
-                            <td>30</td>
-                            <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
-                          </tr>
-                          <tr>
-                            <td><input class="form-check-input" type="checkbox"></td>
-                            <td>01 Jan 2045</td>
-                            <td>Spaghetti</td>
-                            <td>John Doe</td>
-                            <td>$123</td>
-                            <td>30</td>
-                            <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                </div>
-            </div>
         </div>
-      </div>
-      <!-- Table End -->
+        <!-- Table End -->
 
+        <!-- Modal start -->
+        <div class="modal fade bg-secondary" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content  p-3">
 
-      <!-- Footer Start -->
-      <div class="container-fluid p-0 mt-5">
-        <div class="bg-secondary rounded-top p-4 container-fluid">
-          <div class="row container-fluid">
-            <div class="col-12 col-sm-6 text-center text-sm-start">
-              &copy; <a href="#">Emmanuella 2025</a>, All Right Reserved.
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h6 class="modal-title text-dark">About product</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body row d-flex align-items-center">
+                <div class="col-lg-6">
+                  <img src="./img/PEAK CREAM.jpeg" alt="" style="width: 100%;">
+                </div>
+                <div class="col-lg-6">
+                  <h5 class="text-dark">Peak Evm Reg Can - 48x410g</h5>
+                  <h6 class="text-dark">Price: ₦40,000</h6>
+                  <h6 class="text-dark">Wholesale Price: ₦300,000</h6>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
+        <!-- Modal end -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid p-0 mt-5">
+          <div class="bg-secondary rounded-top p-4 container-fluid">
+            <div class="row container-fluid">
+              <div class="col-12 col-sm-6 text-center text-sm-start">
+                &copy; <a href="#">Emmanuella 2025</a>, All Right Reserved.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer End -->
       </div>
-      <!-- Footer End -->
+      <!-- Content End -->
+
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
-    <!-- Content End -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-  </div>
-
-  <!-- JavaScript Libraries -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-
-
-  <!-- Template Javascript -->
-  <script src="js/main.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -32,14 +32,39 @@
         return false;
     });
 
-
-    // Progress Bar
-    $('.pg-bar').waypoint(function () {
-        $('.progress .progress-bar').each(function () {
-            $(this).css("width", $(this).attr("aria-valuenow") + '%');
-        });
-    }, {offset: '80%'});
-
    
 })(jQuery);
 
+
+
+
+// chart js
+
+const branchSalesCtx = document.getElementById('branchSalesChart').getContext('2d');
+new Chart(branchSalesCtx, {
+    type: 'bar',
+    data: {
+        labels: ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Miami'],
+        datasets: [{
+            label: 'Sales',
+            data: [5000, 3800, 4200, 3900, 4500],
+            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1
+        }]
+    }
+});
+
+const revenueCtx = document.getElementById('revenueChart').getContext('2d');
+new Chart(revenueCtx, {
+    type: 'line',
+    data: {
+        labels: ['March 18', 'March 19', 'March 20', 'March 21', 'March 22', 'March 23'],
+        datasets: [{
+            label: 'Revenue',
+            data: [12000, 13500, 14000, 14500, 15000, 15500],
+            borderColor: 'rgba(255, 99, 132, 1)',
+            fill: false
+        }]
+    }
+});

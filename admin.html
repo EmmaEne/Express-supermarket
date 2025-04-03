@@ -8,15 +8,16 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
+
   <!-- Icon Font Stylesheet -->
-  <link href="./font-awesome/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../font-awesome/css/all.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
   <!-- Customized Bootstrap Stylesheet -->
-  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="./css/bootstrap.css" rel="stylesheet">
 
   <!-- Template Stylesheet -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -49,14 +50,13 @@
         </div>
 
         <div class="navbar-nav w-100">
-          <a href="index.html" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+          <a href="index.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
           <a href="products.html" class="nav-link nav-item"><i class="fa fa-laptop me-2"></i>Products</a>
           <a href="stocking.html" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Stocking</a>
           <a href="sales.html" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Sales</a>
           <a href="customers.html" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Customers</a>
-          <a href="suppliers.html" class="nav-item nav-link active"><i class="fa fa-chart-bar me-2"></i>Suppliers</a>
+          <a href="Suppliersindex.html.html" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Suppliers</a>
           <a href="signin.html" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Sign In</a>
-      </nav>
       </nav>
     </div>
     <!-- Sidebar End -->
@@ -86,7 +86,7 @@
                 <div class="d-flex align-items-center">
                   <img class="rounded-circle" src="img/user.jpg" alt="" style="width: 40px; height: 40px;">
                   <div class="ms-2">
-                    <h6 class="fw-normal mb-0">Jhon send you a message</h6>
+                    <h6 class="fw-normal mb-0">John send you a message</h6>
                     <small>15 minutes ago</small>
                   </div>
                 </div>
@@ -96,7 +96,7 @@
                 <div class="d-flex align-items-center">
                   <img class="rounded-circle" src="img/user.jpg" alt="" style="width: 40px; height: 40px;">
                   <div class="ms-2">
-                    <h6 class="fw-normal mb-0">Jhon send you a message</h6>
+                    <h6 class="fw-normal mb-0">John send you a message</h6>
                     <small>15 minutes ago</small>
                   </div>
                 </div>
@@ -106,7 +106,7 @@
                 <div class="d-flex align-items-center">
                   <img class="rounded-circle" src="img/user.jpg" alt="" style="width: 40px; height: 40px;">
                   <div class="ms-2">
-                    <h6 class="fw-normal mb-0">Jhon send you a message</h6>
+                    <h6 class="fw-normal mb-0">John send you a message</h6>
                     <small>15 minutes ago</small>
                   </div>
                 </div>
@@ -118,7 +118,7 @@
           <div class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
               <i class="fa fa-bell me-lg-2"></i>
-              <span class="d-none d-lg-inline-flex">Notificatin</span>
+              <span class="d-none d-lg-inline-flex">Notification</span>
             </a>
             <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
               <a href="#" class="dropdown-item">
@@ -141,8 +141,8 @@
           </div>
           <div class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-              <img class="rounded-circle me-lg-2" src="img/user.jpg" alt="" style="width: 40px; height: 40px;">
-              <span class="d-none d-lg-inline-flex">11 Hughs</span>
+              <img class="rounded-circle me-lg-2" src="img/user-03.jpg" alt="" style="width: 40px; height: 40px;">
+              <span class="d-none d-lg-inline-flex">emmanuelayuk@gmail.com</span>
             </a>
             <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
               <a href="#" class="dropdown-item">My Profile</a>
@@ -154,101 +154,105 @@
       </nav>
       <!-- Navbar End -->
 
+ 
 
-      <!-- Suppliers Start -->
+      <!-- Product record start -->
       <div class="container-fluid pt-4 px-4">
         <div class="row g-4">
           <div class="col-12">
             <div class="bg-secondary rounded h-100 p-4">
-              <h6 class="mb-4">Suppliers</h6>
-                <div class="table-responsive">
-                    <table class="table text-start align-middle table-bordered table-hover mb-0">
-                        <thead>
-                          <tr class="text-white">
-                            <th scope="col"><input class="form-check-input" type="checkbox"></th>
-                            <th scope="col">Company name</th>
-                            <th scope="col">Address</th>
-                            <th scope="col">Contact</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Product supplied</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td><input class="form-check-input" type="checkbox"></td>
-                            <td>RECKITT</td>
-                            <td>11 Hughs</td>
-                            <td>09031225764</td>
-                            <td>aquabil@gmail.com</td>
-                            <td><a class="btn btn-sm w-100 btn-primary" href="">Detail</a></td>
-                          </tr>
-                          <tr>
-                            <td><input class="form-check-input" type="checkbox"></td>
-                            <td>AAVA NON NIVEA</td>
-                            <td>11 Hughs</td>
-                            <td>09031225764</td>
-                            <td>aquabil@gmail.com</td>
-                            <td><a class="btn btn-sm w-100 btn-primary" href="">Detail</a></td>
-                          </tr>
-                          <tr>
-                            <td><input class="form-check-input" type="checkbox"></td>
-                            <td>AAVA NIVEA</td>
-                            <td>11 Hughs</td>
-                            <td>09031225764</td>
-                            <td>aquabil@gmail.com</td>
-                            <td><a class="btn btn-sm w-100 w-100 btn-primary" href="">Detail</a></td>
-                          </tr>
-                          <tr>
-                            <td><input class="form-check-input" type="checkbox"></td>
-                            <td>WAMCO</td>
-                            <td>11 Hughs</td>
-                            <td>09031225764</td>
-                            <td>aquabil@gmail.com</td>
-                            <td><a class="btn btn-sm w-100 btn-primary" href="">Detail</a></td>
-                          </tr>
-                          <tr>
-                            <td><input class="form-check-input" type="checkbox"></td>
-                            <td>AQUABIL</td>
-                            <td>11 Hughs</td>
-                            <td>09031225764</td>
-                            <td>aquabil@gmail.com</td>
-                            <td><a class="btn btn-sm w-100 w-100 btn-primary" href="">Detail</a></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                </div>
+              <h5 class="mb-4">Staff Record</h5>
+               <div class="table-responsive">
+                <table class="table text-start align-middle table-bordered table-hover mb-0">
+                  <thead>
+                    <tr class="text-white">
+                      <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Email</th>
+                      <th scope="col">Position</th>
+                      <th scope="col">Branch</th>
+                      <th scope="col">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>emmanuelayuk@gmail.com</td>
+                      <td>emmanuelayuk@gmail.com</td>
+                      <td>$123</td>
+                      <td>20</td>
+                      <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+
+                      <td>emmanuelayuk@gmail.com</td>
+                      <td>John Doe</td>
+                      <td>$123</td>
+                      <td>20</td>
+                      <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>John Doe</td>
+                      <td>Samuel Eyo</td>
+                      <td>$123</td>
+                      <td>20</td>
+                      <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>John Doe</td>
+                      <td>emmanuelayuk@gmail.coml</td>
+                      <td>$123</td>
+                      <td>30</td>
+                      <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                    </tr>
+                    <tr>
+                      <td><input class="form-check-input" type="checkbox"></td>
+                      <td>emmanuelayuk@gmail.com</td>
+                      <td>emmanuelayuk@gmail.com</td>
+                      <td>$123</td>
+                      <td>30</td>
+                      <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-        </div>
-      </div>
-      <!-- Suppliers End -->
+          </div>
+
+         
+        <!-- Table End -->
 
 
-      <!-- Footer Start -->
-      <div class="container-fluid p-0 mt-5">
-        <div class="bg-secondary rounded-top p-4 container-fluid">
-          <div class="row container-fluid">
-            <div class="col-12 col-sm-6 text-center text-sm-start">
-              &copy; <a href="#">Emmanuella 2025</a>, All Right Reserved.
+        <!-- Footer Start -->
+        <div class="container-fluid p-0 mt-5">
+          <div class="bg-secondary rounded-top p-4 container-fluid">
+            <div class="row container-fluid">
+              <div class="col-12 col-sm-6 text-center text-sm-start">
+                &copy; <a href="#">Emmanuella 2025</a>, All Right Reserved.
+              </div>
             </div>
           </div>
         </div>
+        <!-- Footer End -->
       </div>
-      <!-- Footer End -->
+      <!-- Content End -->
+
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
-    <!-- Content End -->
 
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-  </div>
+    <script src="./lib/chart/chart.min.js"></script>
 
-  <!-- JavaScript Libraries -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-
-
-  <!-- Template Javascript -->
-  <script src="js/main.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
